@@ -71,7 +71,19 @@
             <artifactId>quarkus-junit5</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.williamdlm</groupId>
+            <artifactId>jitpack_quarkus</artifactId>
+            <version>2cf7cdc1cb</version>
+        </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
 <!--    <build>-->
 <!--        <plugins>-->
